@@ -18,6 +18,7 @@ class Quotation extends Model
     protected $fillable = [
         'id',
         'deal',
+        'deal_id',
         'grouped_lines',
         'currency_exchange_rate',
         'total'
